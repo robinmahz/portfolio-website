@@ -11,6 +11,9 @@ html {
 body {
   background-color: #000000;
 }
+.egg {
+  color: #f0ead6;
+}
 .header {
   width: 100%;
   height: 100vh;
