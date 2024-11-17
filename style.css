@@ -382,7 +382,13 @@ nav .fa-solid {
     display: block;
     font-size: 25px;
   }
+
   #sidemenu li {
+    margin: 10px 0;
+    display: grid;
+    place-items: center;
+  }
+  #sidemenu li a {
     border-radius: 8px;
     margin: 0 0;
     margin-top: 10px;
@@ -391,7 +397,7 @@ nav .fa-solid {
     width: 100%;
     transition: all 0.5s;
   }
-  #sidemenu li:hover {
+  #sidemenu li a:hover {
     background: #13171d;
   }
   nav ul {
@@ -414,6 +420,8 @@ nav .fa-solid {
     position: absolute;
     top: 25px;
     left: 25px;
+  }
+  nav .fa-solid {
     cursor: pointer;
   }
   .sub-title {
