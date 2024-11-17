@@ -128,6 +128,9 @@ nav ul li a:hover:after {
   display: flex;
   margin: 20px 0 40px;
 }
+.tab-titles p:hover {
+  color: #f6be00;
+}
 .tab-links {
   margin-right: 50px;
   font-size: 18px;
@@ -301,6 +304,10 @@ nav ul li a:hover:after {
 }
 .social-icons {
   margin-top: 20px;
+}
+.fa-brands.fa-github:hover {
+  color: #f6f8fa;
+  transform: translateY(-5px);
 }
 .fa-brands {
   text-decoration: none;
