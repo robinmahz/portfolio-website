@@ -89,6 +89,14 @@ nav ul li a:hover:after {
   color: transparent;
   display: inline-block;
 }
+.flair {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
 /* --------------------------about--------------------- */
 #about {
   padding: 60px 10%;
